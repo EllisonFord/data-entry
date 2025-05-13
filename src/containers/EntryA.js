@@ -494,14 +494,59 @@ const handMadeRugsListA = [
 
   new HandMadeRug('93197', 'internal comments', 'external comments', 1, 15000, null, 0, {0: 1}, [], [], [0],[], 400, 308, [], [0], [], null, '31'),
 
-  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('4080', 'internal comments', 'external comments', 1, 16000, null, 0, {0: 1}, [], [], [0],[], 410, 255, [], [0], [], null, '31'),
+
+  new HandMadeRug('4652', 'internal comments', 'external comments', 1, 13900, null, 0, {0: 1}, [], [], [0],[], 373, 290, [], [0], [], null, '31'),
+
+  new HandMadeRug('3590', 'internal comments', 'external comments', 1, 8600, null, 0, {0: 1}, [], [], [0],[], 390, 275, [], [0], [], null, '31'),
+
+  new HandMadeRug('4651', 'internal comments', 'external comments', 1, 22800, null, 0, {0: 1}, [], [], [0],[], 390, 303, [], [0], [], null, '31'),
+  new HandMadeRug('5492', 'internal comments', 'external comments', 1, 10530, null, 0, {0: 1}, [], [], [0],[], 390, 270, [], [0], [], null, '31'),
+
+  new HandMadeRug('5475', 'internal comments', 'external comments', 1, 14100, null, 0, {0: 1}, [], [], [0],[], 402, 292, [], [0], [], null, '31'),
+
+  new HandMadeRug('5477', 'internal comments', 'external comments', 1, 12100, null, 0, {0: 1}, [], [], [0],[], 407, 295, [], [0], [], null, '31'),
+
+  new HandMadeRug('5490', 'internal comments', 'external comments', 1, 11540, null, 0, {0: 1}, [], [], [0],[], 398, 290, [], [0], [], null, '31'),
+
+  new HandMadeRug('5236', 'internal comments', 'external comments', 1, null, 9600, {0: 1}, [], [], [0],[], [], 400, 300, [], null, '31'),
+
+  new HandMadeRug('90905', 'internal comments', 'external comments', 1, 18400, null, 0, {0: 1}, [], [], [0],[], 410, 300, [], [0], [], null, '31'),
+
+  new HandMadeRug('5231', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 300, 380, [], [0], [], null, '31'),
+
+  new HandMadeRug('5207', 'internal comments', 'external comments', 1, 34000, null, 0, {0: 1}, [], [], [0],[], 438, 297, [], [0], [], null, '31'),
+
+  new HandMadeRug('2589', 'internal comments', 'external comments', 1, 8800, null, 0, {0: 1}, [], [], [0],[], 410, 310, [], [0], [], null, '31'),
+
+  new HandMadeRug('93594', 'internal comments', 'external comments', 1, 8480, null, 0, {0: 1}, [], [], [0],[], 400, 265, [], [0], [], null, '31'),
+
+  new HandMadeRug('5460', 'internal comments', 'external comments', 1, 10100, null, 0, {0: 1}, [], [], [0],[], 435, 231, [], [0], [], null, '31'),
+  new HandMadeRug('5581', 'internal comments', 'external comments', 1, 8800, null, 0, {0: 1}, [], [], [0],[], 360, 242, [], [0], [], null, '31'),
+  new HandMadeRug('4661', 'internal comments', 'external comments', 1, 8900, null, 0, {0: 1}, [], [], [0],[], 290, 290, [], [0], [], null, '31'),
+  new HandMadeRug('5296', 'internal comments', 'external comments', 1, 13500, null, 0, {0: 1}, [], [], [0],[], 375, 288, [], [0], [], null, '31'),
 
   new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
-
   new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
-
   new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
-
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
+  new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
   new HandMadeRug('', 'internal comments', 'external comments', 1, 15500, null, 0, {0: 1}, [], [], [0],[], 0, 0, [], [0], [], null, '31'),
 ]
 
