@@ -840,7 +840,7 @@ const handMadeRugsList = [
   new HandMadeRug('5462', '', '', 1, 4560, null, 22.55, {0: 1}, [3], [1], [0],[], 300, 190, [0,7], [0], [], null, ''),
 
 
-  // Session 2024-06-26 26th test
+  // Session 2024-06-26 26th
   // L
   new HandMadeRug('5359', 'garden with a lot of animals', '', 1, 9270, null, 25.4, {0: 1}, [13], [], [0],[10.63], 309, 200, [0, 7], [0], [], null, ''),
   new HandMadeRug('5544', 'green patchwork', '', 1, 3030, null, 15.15, {0: 1}, [2], [0, 11], [0],[5.58], 252, 200, [3], [0], [], null, '27'),
