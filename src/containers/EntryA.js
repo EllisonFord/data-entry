@@ -1105,7 +1105,6 @@ const handMadeRugsListA = [
 
   new HandMadeRug('4579', 'internal comments', 'external comments', 1, 2376, null, 0, {0: 1}, [], [], [0],[], 202, 147, [], [0], [], null, '1'),
 
-  new HandMadeRug('6003', 'internal comments', 'external comments', 1, 2368, null, 0, {0: 1}, [], [], [1],[], 216, 137, [], [0], [], null, '1'),
 
   new HandMadeRug('6002', 'internal comments', 'external comments', 1, 2360, null, 0, {0: 1}, [], [], [1],[], 205, 144, [], [0], [], null, '1'),
 
