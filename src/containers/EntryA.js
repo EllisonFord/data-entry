@@ -738,7 +738,6 @@ const handMadeRugsListA = [
 
   new HandMadeRug('5230', 'internal comments', 'external comments', 1, 3270, null, 0, {0: 1}, [], [], [0],[], 270, 173, [], [0], [], null, 'stage'),
 
-  new HandMadeRug('5276', 'internal comments', 'external comments', 1, 2850, null, 0, {0: 1}, [], [], [0],[], 280, 145, [], [0], [], null, 'stage'),
 
   new HandMadeRug('4674', 'internal comments', 'external comments', 1, 2260, null, 0, {0: 1}, [], [], [0],[], 306, 123, [], [0], [], null, 'stage'),
 
@@ -751,12 +750,10 @@ const handMadeRugsListA = [
 
   new HandMadeRug('4332', 'internal comments', 'external comments', 1, 3102, null, 0, {0: 1}, [], [], [0],[], 283, 137, [], [0], [], null, 'stage'),
 
-  new HandMadeRug('5366', 'internal comments', 'external comments', 1, 3056, null, 0, {0: 1}, [], [], [0],[], 373, 117, [], [0], [], null, 'stage'),
 
 
 
 
-  new HandMadeRug('800023', 'internal comments', 'external comments', 1, 360, null, 0, {0: 1}, [], [], [0],[], 150, 60, [], [0], [], null, '34'),
 
   new HandMadeRug('hand made', 'internal comments', 'external comments', 1, 89, null, 0, {0: 1}, [], [], [1],[], 120, 60, [], [0], [], null, '34'),
 
@@ -766,7 +763,6 @@ const handMadeRugsListA = [
 
   new HandMadeRug('800693', 'internal comments', 'external comments', 1, 756, null, 0, {0: 1}, [], [], [0],[], 143, 132, [], [0], [], null, '34'),
 
-  new HandMadeRug('8928', 'internal comments', 'external comments', 1, 374, null, 0, {0: 1}, [], [], [0],[], 152, 98, [], [0], [], null, '34'),
 
   new HandMadeRug('800029', 'internal comments', 'external comments', 1, 778, null, 0, {0: 1}, [], [], [0],[], 154, 126, [], [0], [], null, '34'),
 
@@ -783,7 +779,6 @@ const handMadeRugsListA = [
   new HandMadeRug('4980', 'internal comments', 'external comments', 1, 3346, null, 0, {0: .95, 4: .05}, [], [], [0],[], 255, 164, [], [0], [], null, '34'),
 
 
-  new HandMadeRug('4938', 'internal comments', 'external comments', 1, 3226, null, 0, {0: .95, 4: .05}, [], [], [0],[], 252, 160, [], [0], [], null, '34'),
 
 
   new HandMadeRug('4967', 'internal comments', 'external comments', 1, 3090, null, 0, {0: .95, 4: .05}, [], [], [0],[], 234, 165, [], [0], [], null, '34'),
@@ -796,21 +791,15 @@ const handMadeRugsListA = [
 
   new HandMadeRug('98377', 'internal comments', 'external comments', 1, 544, null, 0, {0: 1}, [], [], [0],[], 162, 112, [], [0], [], null, '34'),
 
-  new HandMadeRug('8887', 'internal comments', 'external comments', 1, 780, null, 0, {0: 1}, [], [], [0],[], 144, 135, [], [0], [], null, '34'),
 
   new HandMadeRug('98030', 'internal comments', 'external comments', 1, 476, null, 0, {0: 1}, [], [], [0],[], 154, 103, [], [0], [], null, '34'),
 
   new HandMadeRug('8879', 'internal comments', 'external comments', 1, 740, null, 0, {0: 1}, [], [], [0],[], 142, 130, [], [0], [], null, '34'),
 
-  new HandMadeRug('800544', 'internal comments', 'external comments', 1, 1334, null, 0, {0: 1}, [], [], [0],[], 145, 230, [], [0], [], null, '34'),
-
-  new HandMadeRug('800165', 'internal comments', 'external comments', 1, 1070, null, 0, {0: 1}, [], [], [0],[], 199, 134, [], [0], [], null, '34'),
 
   new HandMadeRug('800650', 'internal comments', 'external comments', 1, 1080, null, 0, {0: 1}, [], [], [0],[], 176, 152, [], [0], [], null, '34'),
 
-  new HandMadeRug('800404', 'internal comments', 'external comments', 1, 1400, null, 0, {0: 1}, [], [], [0],[], 130, 268, [], [0], [], null, '34'),
 
-  new HandMadeRug('800196', 'internal comments', 'external comments', 1, 1130, null, 0, {0: 1}, [], [], [0],[], 251, 112, [], [0], [], null, '34'),
 
   new HandMadeRug('800549', 'internal comments', 'external comments', 1, 1224, null, 0, {0: 1}, [], [], [0],[], 218, 140, [], [0], [], null, '34'),
 
@@ -820,13 +809,10 @@ const handMadeRugsListA = [
 
 
 
-  new HandMadeRug('5391', 'internal comments', 'external comments', 1, 1296, null, 0, {0: 1}, [], [], [0],[], 180, 120, [], [0], [], null, 'stage'),
 
   new HandMadeRug('800004', 'internal comments', 'external comments', 1, 354, null, 0, {0: 1}, [], [], [0],[], 158, 56, [], [0], [], null, 'stage'),
 
   new HandMadeRug('800349', 'internal comments', 'external comments', 1, 519, null, 0, {0: 1}, [], [], [0],[], 135, 96, [], [0], [], null, 'stage'),
-
-  new HandMadeRug('8856', 'internal comments', 'external comments', 1, 584, null, 0, {0: 1}, [], [], [0],[], 180, 81, [], [0], [], null, 'stage'),
 
   new HandMadeRug('800471', 'internal comments', 'external comments', 1, 422, null, 0, {0: 1}, [], [], [0],[], 155, 68, [], [0], [], null, 'stage'),
 
@@ -964,9 +950,6 @@ const handMadeRugsListA = [
 
   new HandMadeRug('4820', 'internal comments', 'external comments', 1, 1920, null, 0, {0: 1}, [], [], [0],[], 192, 125, [], [0], [], null, '1'),
 
-  new HandMadeRug('4807', 'internal comments', 'external comments', 1, 2006, null, 0, {0: 1}, [], [], [0],[], 190, 132, [], [0], [], null, '1'),
-
-  new HandMadeRug('2234', 'internal comments', 'external comments', 1, 2990, null, 0, {0: 1}, [], [], [0],[], 196, 140, [], [0], [], null, '1'),
 
   new HandMadeRug('S3502', 'internal comments', 'external comments', 1, 1610, null, 0, {0: 1}, [], [], [0],[], 214, 125, [], [0], [], null, '1'),
 
@@ -974,17 +957,11 @@ const handMadeRugsListA = [
 
   new HandMadeRug('4781', 'internal comments', 'external comments', 1, 1510, null, 0, {0: 1}, [], [], [0],[], 193, 130, [], [0], [], null, '1'),
 
-  new HandMadeRug('4809', 'internal comments', 'external comments', 1, 2070, null, 0, {0: 1}, [], [], [0],[], 196, 132, [], [0], [], null, '1'),
-
   new HandMadeRug('4821', 'internal comments', 'external comments', 1, 2132, null, 0, {0: 1}, [], [], [0],[], 196, 136, [], [0], [], null, '1'),
 
   new HandMadeRug('N5054', 'internal comments', 'external comments', 1, 5000, null, 0, {0: .5, 4: .5}, [], [], [0],[], 302, 122, [], [0], [], null, '1'),
 
   new HandMadeRug('4818', 'internal comments', 'external comments', 1, 1862, null, 0, {0: 1}, [], [], [0],[], 179, 130, [], [0], [], null, '1'),
-
-  new HandMadeRug('4708', 'internal comments', 'external comments', 1, 1286, null, 0, {0: 1}, [], [], [0],[], 204, 126, [], [0], [], null, '1'),
-
-  new HandMadeRug('90599', 'internal comments', 'external comments', 1, 1536, null, 0, {0: 1}, [], [], [0],[], 200, 128, [], [0], [], null, '1'),
 
   new HandMadeRug('93447', 'internal comments', 'external comments', 1, 2429, null, 0, {0: 1}, [], [], [0],[], 208, 146, [], [0], [], null, '1'),
 
@@ -992,16 +969,13 @@ const handMadeRugsListA = [
 
   new HandMadeRug('4588', 'internal comments', 'external comments', 1, 2040, null, 0, {0: 1}, [], [], [0],[], 204, 125, [], [0], [], null, '1'),
 
-  new HandMadeRug('3445', 'internal comments', 'external comments', 1, 2320, null, 0, {0: 1}, [], [], [0],[], 196, 148, [], [0], [], null, '1'),
 
-  new HandMadeRug('4597', 'internal comments', 'external comments', 1, 2834, null, 0, {0: 1}, [], [], [0],[], 216, 164, [], [0], [], null, '1'),
 
   new HandMadeRug('4592', 'internal comments', 'external comments', 1, 2416, null, 0, {0: 1}, [], [], [0],[], 204, 148, [], [0], [], null, '1'),
 
   new HandMadeRug('0513', 'internal comments', 'external comments', 1, 1972, null, 0, {0: 1}, [], [], [0],[], 202, 122, [], [0], [], null, '1'),
 
 
-  new HandMadeRug('4591', 'internal comments', 'external comments', 1, 2274, null, 0, {0: 1}, [], [], [0],[], 203, 140, [], [0], [], null, '1'),
 
 
   new HandMadeRug('4579', 'internal comments', 'external comments', 1, 2376, null, 0, {0: 1}, [], [], [0],[], 202, 147, [], [0], [], null, '1'),
