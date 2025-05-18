@@ -393,8 +393,8 @@ class RugABC extends TextileFloorCoveringABC {
 }
 
 export class HandMadeRug extends RugABC {
-  constructor(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, pileThickness, length, width, styles, usage, features, region, storage, hasFringes=true, kpm=undefined, clearance=false, manufacturing=0, partner=null, foundationMaterial=1, shape='rectangular') {
-    super(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, length, width, styles, usage, hasFringes, clearance, shape);
+  constructor(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, pileThickness, length, width, styles, usage, features, region, storage, hasFringes=true, kpm=undefined, clearance=false, partner=null, foundationMaterial=1, shape='rectangular') {
+    super(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, 0, pileThickness, length, width, styles, usage, hasFringes, clearance, shape);
     this.region = region;
     this.kpm = kpm;
     this.partner = partner;
