@@ -105,7 +105,7 @@ const handMadeRugsList = [
   new HandMadeRug('4825', 'Geometric', '', 0, 1300, 11, 4.2, {0: 1}, [1, 6], [0], [0],[4.53], 173, 95, [0], [0], [], 7, ''),
   new HandMadeRug('800068', '', '', 1, 1480, 2, 7.1, {0: 1}, [], [], [0],[3.1], 254, 145, [4], [0], [0, 1, 2, 3, 5, 7], 4, ''),
   new HandMadeRug('5184', 'Nomada', '', 1, 1400, null, 6.8, {0: 1}, [1, 3], [2, 0], [0],[6.84], 170, 103, [0, 6], [0], [], 8, 'x'),
-  new HandMadeRug('800427', '', '', 1, 1460, 2, 5.9, {0: 1}, [], [], [0],[3.37], 270, 135, [4], [0], [0, 1, 2, 3, 5, 7], 4, 'STAGE'),
+  new HandMadeRug('800427', '', '', 1, 1460, 2, 5.9, {0: 1}, [], [], [0],[3.37], 270, 135, [4], [0], [0, 1, 2, 3, 5, 7], 4, 'stage'),
   new HandMadeRug('4893', 'Prayer rug', '', 1, 1674, 8, 5.35, {0: 1}, [9], [0], [0],[9.63], 158, 106, [0], [0, 5], [], 6, 'x'),
   new HandMadeRug('800319', '', '', 1, 1776, 2, 6.4, {0: 1}, [], [], [0],[4.7], 290, 153, [4], [0], [0, 1, 2, 3, 5, 7], 4, 'stage'),
   new HandMadeRug('800159', '', '', 1, 1530, 2, 7, {0: 1}, [], [], [0],[3.8], 273, 140, [4], [0], [0, 1, 2, 3, 5, 7], 4, ''),
@@ -458,7 +458,7 @@ const handMadeRugsList = [
   new HandMadeRug('4520', 'Floral orange with beige center', '', 1, 2414, null, 6.95, {0: 1}, [0, 4], [6], [0],[9.22], 201, 120, [0, 7], [0], [], null, ''),
   new HandMadeRug('800214', 'chicken', '', 1, 2994, null, 3.20, {4: 1}, [13], [6], [0],[4.64], 190, 126, [6], [0], [], null, ''),
   new HandMadeRug('800212', 'chicken orange', '', 1, 2700, null, 2.95, {4: 1}, [4,0,1], [], [0],[3.26], 180, 120, [6], [0], [], null, ''),
-  new HandMadeRug('4964', 'persian red center beige exterior', '', 1, 2954, null, 13.30, {0: 5, 4:5}, [0, 1], [3], [0],[9.93], 228, 162, [0,7], [0], [], null, '8'),
+  new HandMadeRug('4964', 'persian red center beige exterior', '', 1, 2954, null, 13.30, {0: .5, 4: .5}, [0, 1], [3], [0],[9.93], 228, 162, [0,7], [0], [], null, '8'),
   new HandMadeRug('6616', 'persian blue rectangle center and beige around with flower', '', 1, 3792, null, 13.80, {0: 1}, [0, 3], [1], [1],[], 241, 196, [0, 7], [0], [], null, '8'),
   new HandMadeRug('93706', 'brown fendy', '', 1, 1656, null, 17.85, {0: 1}, [9], [], [2],[], 240, 172, [], [0], [], null, '8'),  // no photo found
   // ! No photo found and no weight for 93706

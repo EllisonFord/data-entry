@@ -3,7 +3,6 @@
 import 'server-only';
 import productsMedia from '@/containers/productsMediaDict';
 
-
 // Helper functions moved outside of classes
 function pileCalculator(pileThickness) {
   switch (pileThickness.length) {
@@ -258,32 +257,111 @@ class TextileFloorCoveringABC extends ProductABC {
 }
 
 class RugABC extends TextileFloorCoveringABC {
-  constructor(productID, internal, external, stock, tagPrice, titleTag='', weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, length, width, styles, usage, hasFringes, clearance) {
+  constructor(productID, internal, external, stock, tagPrice, titleTag='', weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, length, width, styles, usage, hasFringes, clearance, shape = 'rectangular') {
     super(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, clearance);
+
+    this.shape = shape;
+    let dimensionsObj = {};
+    let area = 0;
+
+    switch(shape) {
+      case 'round':
+        // For round carpets, length parameter represents diameter
+        dimensionsObj = {
+          SI: {
+            diameter: length,
+            // Still store length and width for compatibility with existing code
+            length: length,
+            width: length,
+            formatted: `Ø${length}`,
+            unit: 'centimeter'
+          },
+          USC: {
+            diameter: cmToImperialStr(length),
+            length: cmToImperialStr(length),
+            width: cmToImperialStr(length),
+            formatted: `Ø${cmToImperialStr(length)}`,
+            unit: 'foot'
+          }
+        };
+        // Area of a circle: π * r²
+        area = Math.PI * Math.pow(length / 2, 2);
+        break;
+
+      case 'oval':
+        dimensionsObj = {
+          SI: {
+            majorAxis: length,
+            minorAxis: width,
+            length: length,
+            width: width,
+            formatted: `${length}x${width} (oval)`,
+            unit: 'centimeter'
+          },
+          USC: {
+            majorAxis: cmToImperialStr(length),
+            minorAxis: cmToImperialStr(width),
+            length: cmToImperialStr(length),
+            width: cmToImperialStr(width),
+            formatted: `${cmToImperialStr(length)} x ${cmToImperialStr(width)} (oval)`,
+            unit: 'foot'
+          }
+        };
+        // Approximate area of an ellipse: π * a * b
+        area = Math.PI * (length / 2) * (width / 2);
+        break;
+
+      case 'freeform':
+        dimensionsObj = {
+          SI: {
+            maxLength: length,
+            maxWidth: width,
+            length: length,
+            width: width,
+            formatted: `max ${length}x${width}`,
+            unit: 'centimeter'
+          },
+          USC: {
+            maxLength: cmToImperialStr(length),
+            maxWidth: cmToImperialStr(width),
+            length: cmToImperialStr(length),
+            width: cmToImperialStr(width),
+            formatted: `max ${cmToImperialStr(length)} x ${cmToImperialStr(width)}`,
+            unit: 'foot'
+          }
+        };
+        // For freeform, use max dimensions as approximation
+        area = length * width;
+        break;
+
+      default: // rectangular
+        dimensionsObj = {
+          SI: {
+            length: length,
+            width: width,
+            formatted: `${length}x${width}`,
+            unit: 'centimeter'
+          },
+          USC: {
+            length: cmToImperialStr(length),
+            width: cmToImperialStr(width),
+            formatted: `${cmToImperialStr(length)} x ${cmToImperialStr(width)}`,
+            unit: 'foot'
+          }
+        };
+        area = length * width;
+    }
 
     // Create new measurements for this class
     const rugMeasurements = {
-      dimensions: {
-        SI: {
-          length: length,
-          width: width,
-          formatted: `${length}x${width}`,
-          unit: 'centimeter'
-        },
-        USC: {
-          length: cmToImperialStr(length),
-          width: cmToImperialStr(width),
-          formatted: `${cmToImperialStr(length)} x ${cmToImperialStr(width)}`,
-          unit: 'foot'
-        }
-      },
+      dimensions: dimensionsObj,
       density: {
         SI: {
-          value: length && width && weight ? Math.round((10**7 * weight) / (length * width)) : undefined,
+          value: area && weight ? Math.round((10**7 * weight) / area) : undefined,
           unitType: 'g/m²'
         },
         USC: {
-          value: length && width && weight ? Math.round((weight * 294.9375) / (length * width) * 100) / 100 : undefined,
+          value: area && weight ? Math.round((weight * 294.9375) / area * 100) / 100 : undefined,
           unitType: 'oz/yd²'
         }
       }
@@ -299,8 +377,13 @@ class RugABC extends TextileFloorCoveringABC {
     this.usage = usage;
     this.hasFringes = hasFringes;
     this.category = 'carpets';
-    this.isRunner = (this.length / this.width) > 2.01;
-    this.isSquare = this.length / this.width > 0.9 && this.length / this.width < 1.1;
+
+    // Update properties to consider shape
+    this.isRunner = shape === 'rectangular' && (length / width) > 2.01;
+    this.isSquare = shape === 'rectangular' && (length / width) > 0.9 && (length / width) < 1.1;
+    this.isRound = shape === 'round';
+    this.isOval = shape === 'oval';
+    this.isFreeform = shape === 'freeform';
 
     // COPIED RUN IN ROUTE this.title = this.generateTitle();
     // COPIED RUN IN ROUTE this.titleAtCheckout = `${this.title} ref ${this.productID}`;
@@ -310,8 +393,8 @@ class RugABC extends TextileFloorCoveringABC {
 }
 
 export class HandMadeRug extends RugABC {
-  constructor(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, pileThickness, length, width, styles, usage, features, region, storage, hasFringes=true, kpm=undefined, clearance=false, manufacturing=0, partner=null, foundationMaterial=1) {
-    super(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, length, width, styles, usage, hasFringes, clearance);
+  constructor(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, pileThickness, length, width, styles, usage, features, region, storage, hasFringes=true, kpm=undefined, clearance=false, manufacturing=0, partner=null, foundationMaterial=1, shape='rectangular') {
+    super(productID, internal, external, stock, tagPrice, titleTag, weight, weavedMaterials, mainColors, highlightColors, origins, manufacturing, pileThickness, length, width, styles, usage, hasFringes, clearance, shape);
     this.region = region;
     this.kpm = kpm;
     this.partner = partner;
