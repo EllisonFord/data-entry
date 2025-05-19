@@ -3,14 +3,12 @@ import { HandMadeRug } from '@/containers/CarpetMeta.container';
 
 const handMadeRugsListC = [
   new HandMadeRug('475', 'blue one that was dyed recently', 'external comments', 1, 2377, null, 0, {0: 1}, [], [], [0],[], 166, 95, [], [0], [], null, '3'),
-  new HandMadeRug('4368', '', 'external comments', 1, 1122, null, 0, {0: 1}, [], [], [0],[], 170, 110, [], [0], [], null, '3'),
   new HandMadeRug('5333', 'internal comments', 'external comments', 1, 1186, null, 0, {0: 1}, [], [], [0],[], 162, 122, [], [0], [], null, '3'),
 
   new HandMadeRug('800028', 'internal comments', 'external comments', 1, 680, null, 0, {0: 1}, [], [], [0],[], 146, 116, [], [0], [], null, '5'),
   new HandMadeRug('800026', 'internal comments', 'external comments', 1, 740, null, 0, {0: 1}, [], [], [0],[], 158, 117, [], [0], [], null, '5'),
   new HandMadeRug('800731', 'internal comments', 'external comments', 1, 730, null, 0, {0: 1}, [], [], [0],[], 192, 95, [], [0], [], null, '5'),
   new HandMadeRug('8999', 'internal comments', 'external comments', 1, 742, null, 0, {0: 1}, [], [], [0],[], 153, 121, [], [0], [], null, '5'),
-  new HandMadeRug('800441', 'internal comments', 'external comments', 1, 618, null, 0, {0: 1}, [], [], [0],[], 148, 104, [], [0], [], null, '5'),
   new HandMadeRug('800385', 'internal comments', 'external comments', 1, 692, null, 0, {0: 1}, [], [], [0],[], 169, 102, [], [0], [], null, '5'),
   new HandMadeRug('800601', 'internal comments', 'external comments', 1, 590, null, 0, {0: 1}, [], [], [0],[], 167, 88, [], [0], [], null, '5'),
   new HandMadeRug('8790', 'internal comments', 'external comments', 1, 590, null, 0, {0: 1}, [], [], [0],[], 175, 81, [], [0], [], null, '5'),
@@ -72,13 +70,7 @@ const handMadeRugsListC = [
   new HandMadeRug('NoRef', 'internal comments', 'external comments', 1, 9650, null, 0, {0: 1}, [], [], [0],[], 413, 292, [], [0], [], null, 'WU'),
   new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2'),
   new HandMadeRug('3320', '', '', 1, 1524, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 240, 171, [0, 7], [0], [], null, '2'),
-  new HandMadeRug('4599', '', '', 1, 3187, null, 1.65, {0: 1}, [9], [13], [0],[0.19], 249, 160, [0, 7], [0], [], null, '2'),
-  new HandMadeRug('93980', 'green floral', '', 1, 1700, null, 21.50, {0: 1}, [2], [10], [2],[10], 250, 170, [0, 7], [0], [], null, '2'),
-  new HandMadeRug('93332', 'blue with yellow frame', '', 1, 1674, null, 20.1, {0: 1}, [2], [5], [2],[14.17], 240, 174, [0], [0], [], null, '2'),
-  new HandMadeRug('93692', 'blue with light versace', '', 1, 1640, null, 20.1, {0: 1}, [3], [0], [2],[11.90], 241, 170, [0], [0], [], null, '2'),
-  new HandMadeRug('93102', 'green floral blue and pink', '', 1, 1592, null, 20.5, {0: 1}, [2], [3, 10], [2],[12.5], 234, 170, [0, 7], [0], [], null, '2'),
   new HandMadeRug('NoTag' , 'internal comments', 'external comments', 1, 123, null, 0, {0: 1}, [], [], [],[], 1, 1, [], [0], [], null, '2'),
-  new HandMadeRug('93713', 'orange with red border ', '', 1, 1732, null, 21.9, {0: 1}, [4], [2, 1], [2],[13.45], 246, 176, [0], [0], [], null, '2')
 
 ]
 
