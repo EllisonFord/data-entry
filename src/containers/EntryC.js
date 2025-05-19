@@ -73,4 +73,8 @@ const handMadeRugsListC = [
 
 ]
 
+new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
+new HandMadeRug('3320', '', '', 1, 1524, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
+new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
+
 // new HandMadeRug('productID', 'internal comments', 'external comments', 1, 123, null, 0, {0: 1}, [], [], [],[], 1, 1, [], [0], [], null, ''),

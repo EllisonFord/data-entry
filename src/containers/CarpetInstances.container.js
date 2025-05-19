@@ -703,8 +703,8 @@ const handMadeRugsList = [
   new HandMadeRug('8928', '', '', 1, 374, null, 1.9, {0: 1}, [10], [3, 2, 9], [0],[3.14], 152, 98, [4], [0], [], null, '34'),
   new HandMadeRug('030', '', '', 1, 89, null, 0.7, {0: 1}, [13], [], [1],[3.65], 120, 60, [4], [0], [], null, ''),
   // DUPLICATE new HandMadeRug('800693', '', '', 1, 756, null, 2.45, {0: 1}, [9], [5, 6, 3], [0],[3.4], 143, 132, [4, 6], [0], [], null),
-  new HandMadeRug('93314', 'green with beige hair', '', 1, 1652, null, 20.15, {0: 1}, [2], [0], [2],[11.34], 240, 172, [0], [0], [], null, ''),
-  new HandMadeRug('93337', '2type of green floral', '', 1, 1582, null, 20.35, {0: 1}, [2], [], [2],[11.4], 232, 170, [0], [0], [], null, ''),
+  new HandMadeRug('93314', 'green with beige hair', '', 1, 1652, null, 20.15, {0: 1}, [2], [0], [2],[11.34], 240, 172, [0], [0], [], null, '2'),
+  new HandMadeRug('93337', '2type of green floral', '', 1, 1582, null, 20.35, {0: 1}, [2], [], [2],[11.4], 232, 170, [0], [0], [], null, '2'),
   new HandMadeRug('1887', '', '', 1, 120, null, 1.55, {0: 1}, [13], [], [4],[2.82], 130, 87, [4], [0], [], null, '34'),
   new HandMadeRug('1813', '', '', 1, 100, null, 1.35, {0: 1}, [13], [], [4],[2.65], 118, 85, [4], [0], [], null, ''),
   new HandMadeRug('336', '', '', 1, 155, null, 2.35, {0: 1}, [13], [], [4],[3], 153, 100, [4], [0], [], null, ''),
@@ -735,12 +735,12 @@ const handMadeRugsList = [
   new HandMadeRug('93096', 'internal comments', '', 1, 123, null, 23.85, {0: 1}, [1], [2,3], [0],[9.78], 302, 200, [0], [0], [], null, '22'),
 
   // M & L
-  new HandMadeRug('93703', 'yellow with blue versace', '', 1, 1640, null, 18.8, {0: 1}, [5], [3], [2],[9.76], 241, 170, [0], [0], [], null, ''),
-  new HandMadeRug('93690', 'blue', '', 1, 1634, null, 21.5, {0: 1}, [3], [], [2],[13.56], 239, 171, [0], [0], [], null, ''),
+  new HandMadeRug('93703', 'yellow with blue versace', '', 1, 1640, null, 18.8, {0: 1}, [5], [3], [2],[9.76], 241, 170, [0], [0], [], null, '2'),
+  new HandMadeRug('93690', 'blue', '', 1, 1634, null, 21.5, {0: 1}, [3], [], [2],[13.56], 239, 171, [0], [0], [], null, '2'),
   new HandMadeRug('93678', 'yellow with red versace', '', 1, 2020, null, 24.65, {0: 1}, [5], [1], [2],[11.30], 255, 198, [0], [0], [], null, '22'),
-  new HandMadeRug('93338', 'blue with darker design around', '', 1, 1652, null, 21.25, {0: 1}, [2], [], [2],[9.73], 240, 172, [0], [0], [], null, ''),
+  new HandMadeRug('93338', 'blue with darker design around', '', 1, 1652, null, 21.25, {0: 1}, [2], [], [2],[9.73], 240, 172, [0], [0], [], null, '2'),
   new HandMadeRug('A2986', 'yellow with lighter versace', '', 1, 2020, null, 22.8, {0: 1}, [5], [], [2],[12.40], 250, 202, [0], [0], [], null, '22'),
-  new HandMadeRug('93704', 'blue with darker versace', '', 1, 1694, null, 20.6, {0: 1}, [3], [], [2],[11.49], 242, 175, [0], [0], [], null, ''),
+  new HandMadeRug('93704', 'blue with darker versace', '', 1, 1694, null, 20.6, {0: 1}, [3], [], [2],[11.49], 242, 175, [0], [0], [], null, '2'),
   new HandMadeRug('93687', 'yellow versace', '', 1, 2016, null, 24, {0: 1}, [5], [], [2],[10.51], 252, 200, [0], [0], [], null, '22'),
   new HandMadeRug('93680', 'blue with lighter versace', '', 1, 1980, null, 23.15, {0: 1}, [3], [], [2],[10.65], 245, 202, [0], [0], [], null, '22'),
 
