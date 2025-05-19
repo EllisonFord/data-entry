@@ -70,11 +70,17 @@ const handMadeRugsListC = [
   new HandMadeRug('NoRef', 'internal comments', 'external comments', 1, 3894, null, 0, {0: 1}, [], [], [0],[], 293, 248, [], [0], [], null, 'WU'),
   new HandMadeRug('NoRef', 'internal comments', 'external comments', 1, 1489, null, 0, {0: 1}, [], [], [0],[], 185, 115, [], [0], [], null, 'WU'),
   new HandMadeRug('NoRef', 'internal comments', 'external comments', 1, 9650, null, 0, {0: 1}, [], [], [0],[], 413, 292, [], [0], [], null, 'WU'),
+  new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2'),
+  new HandMadeRug('3320', '', '', 1, 1524, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 240, 171, [0, 7], [0], [], null, '2'),
+  new HandMadeRug('4599', '', '', 1, 3187, null, 1.65, {0: 1}, [9], [13], [0],[0.19], 249, 160, [0, 7], [0], [], null, '2'),
+  new HandMadeRug('93980', 'green floral', '', 1, 1700, null, 21.50, {0: 1}, [2], [10], [2],[10], 250, 170, [0, 7], [0], [], null, '2'),
+  new HandMadeRug('93332', 'blue with yellow frame', '', 1, 1674, null, 20.1, {0: 1}, [2], [5], [2],[14.17], 240, 174, [0], [0], [], null, '2'),
+  new HandMadeRug('93692', 'blue with light versace', '', 1, 1640, null, 20.1, {0: 1}, [3], [0], [2],[11.90], 241, 170, [0], [0], [], null, '2'),
+  new HandMadeRug('93102', 'green floral blue and pink', '', 1, 1592, null, 20.5, {0: 1}, [2], [3, 10], [2],[12.5], 234, 170, [0, 7], [0], [], null, '2'),
+  new HandMadeRug('NoTag' , 'internal comments', 'external comments', 1, 123, null, 0, {0: 1}, [], [], [],[], 1, 1, [], [0], [], null, '2'),
+  new HandMadeRug('93713', 'orange with red border ', '', 1, 1732, null, 21.9, {0: 1}, [4], [2, 1], [2],[13.45], 246, 176, [0], [0], [], null, '2')
 
 ]
 
-new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
-new HandMadeRug('3320', '', '', 1, 1524, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
-new HandMadeRug('3100', '', '', 1, 1568, null, 1.65, {0: 1}, [9], [13], [2],[0.19], 224, 172, [0, 7], [0], [], null, '2')
 
 // new HandMadeRug('productID', 'internal comments', 'external comments', 1, 123, null, 0, {0: 1}, [], [], [],[], 1, 1, [], [0], [], null, ''),
