@@ -699,7 +699,7 @@ const handMadeRugsList = [
   new HandMadeRug('93980', 'green floral', '', 1, 1700, null, 21.50, {0: 1}, [2], [10], [2],[10], 250, 170, [0, 7], [0], [], null, '2'),
   new HandMadeRug('93101', 'yellow versace', '', 1, 1702, null, 20.80, {0: 1}, [5], [], [2],[11.83], 243, 175, [0, 7], [0], [], null, '2'),
   new HandMadeRug('800646', '', '', 1, 276, null, 1.25, {0: 1}, [1], [0, 6], [0],[3.49], 83, 83, [4], [0], [], null, '34'),
-  new HandMadeRug('1830', '', '', 1, 118, null, 1.7, {0: 1}, [13], [], [4],[2.9], 1, 1, [4, 6], [0], [], null, ''),
+  new HandMadeRug('1830', 'Indian Kilim. We cannot find it, therefore we should not sell it until we find it, as it may be sold already. Marked as stock 0 due to this', '', 0, 118, null, 1.7, {0: 1}, [13], [], [4],[2.9], 1, 1, [4, 6], [0], [], null, ''),
   new HandMadeRug('8928', '', '', 1, 374, null, 1.9, {0: 1}, [10], [3, 2, 9], [0],[3.14], 152, 98, [4], [0], [], null, '34'),
   new HandMadeRug('030', '', '', 1, 89, null, 0.7, {0: 1}, [13], [], [1],[3.65], 120, 60, [4], [0], [], null, ''),
   // DUPLICATE new HandMadeRug('800693', '', '', 1, 756, null, 2.45, {0: 1}, [9], [5, 6, 3], [0],[3.4], 143, 132, [4, 6], [0], [], null),
