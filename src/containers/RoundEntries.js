@@ -43,4 +43,5 @@ const roundHandMadeRugs = [
   new HandMadeRug('3949', 'internal comments', 'external comments', 1, 1462, null, 0, {0: .95, 4: .05}, [], [], [0],[], 150, 150, [], [0], [], null, '29', true, null, false, null, 1, 'round'),
 ]
 
+
 //   new HandMadeRug('productID', 'internal comments', 'external comments', 1, 123, null, 0, {0: .95, 4: .05}, [], [], [],[], 1, 1, [], [0], [], null, '29', true, null, false, null, 1, 'round'),
