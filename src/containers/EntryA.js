@@ -435,7 +435,7 @@ const handMadeRugsListA = [
   new HandMadeRug('TABRIZ001', 'internal comments', 'external comments', 1, 1885, null, 0, {0: 1}, [], [], [0],[], 190, 124, [], [0], [], null, '1'),
   new HandMadeRug('handmade', 'internal comments', 'external comments', 1, 550, null, 0, {0: 1}, [], [], [4],[], 200, 140, [], [0], [], null, '1'),
 
-  new HandMadeRug('S9', 'internal comments', 'external comments', 1, 12, null, 0, {0: 1}, [], [], [0],[], 42, 29, [], [0], [], null, 'stage'),
+  new HandMadeRug('S9', 'internal comments', 'external comments', 1, 12, null, 0, {0: 1}, [], [], [0],[], 42, 29, [], [0], [], null, '36'),
   new HandMadeRug('800588', 'internal comments', 'external comments', 1, 38, null, 0, {0: 1}, [], [], [0],[], 31, 30, [], [0], [], null, 'stage'),
   new HandMadeRug('800485', 'internal comments', 'external comments', 1, 132, null, 0, {0: 1}, [], [], [0],[], 72, 46, [], [0], [], null, 'stage'),
   new HandMadeRug('800590', 'internal comments', 'external comments', 1, 70, null, 0, {0: 1}, [], [], [0],[], 53, 33, [], [0], [], null, 'stage'),
