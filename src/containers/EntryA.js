@@ -117,7 +117,7 @@ const handMadeRugsListA = [
   new HandMadeRug('4750', 'internal comments', 'external comments', 1, 1230, null, 0, {0: 1}, [], [], [0],[], 290, 53, [], [0], [], null, '10'),
   new HandMadeRug('4743', 'internal comments', 'external comments', 1, 1190, null, 0, {0: 1}, [], [], [0],[], 286, 52, [], [0], [], null, '10'),
   new HandMadeRug('4741', 'internal comments', 'external comments', 1, 1188, null, 0, {0: 1}, [], [], [0],[], 280, 53, [], [0], [], null, '10'),
-  new HandMadeRug('3792', 'Storage uncertainty. This one says no. 9, duplicate said no. 15', 'external comments', 1, 588, null, 0, {0: 2}, [], [], [2],[], 163, 90, [], [0], [], null, '9'),
+  new HandMadeRug('3792', 'Storage uncertainty. This one says no. 9, duplicate said no. 15', 'external comments', 1, 588, null, 0, {0: 1}, [], [], [2],[], 163, 90, [], [0], [], null, '9'),
   new HandMadeRug('5886', 'internal comments', 'external comments', 1, 656, null, 0, {0: 1}, [], [], [0],[], 142, 77, [], [0], [], null, '9'),
   new HandMadeRug('5914', 'Storage uncertainty. This one says no. 9, duplicate said no. 15', 'external comments', 1, 644, null, 0, {0: 1}, [], [], [0],[], 145, 74, [], [0], [], null, '9'),
   new HandMadeRug('5912', 'Storage uncertainty. This one says no. 9, duplicate said no. 15', 'external comments', 1, 648, null, 0, {0: 1}, [], [], [0],[], 145, 74, [], [0], [], null, '9'),

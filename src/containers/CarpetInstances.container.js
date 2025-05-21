@@ -827,7 +827,7 @@ const handMadeRugsList = [
 
   // R & N
   new HandMadeRug('5241', 'red center with green inside', '', 1, 5775, null, 22.45, {0: 1}, [1,3], [2], [0],[7.80], 285, 203, [0], [0], [], null, '23'),
-  new HandMadeRug('5313', 'red ', '', 1, 3570, null, 14.65, {0: 1}, [1], [], [0],[], 300, 170, [0], [0], [], null, 'w'),
+  new HandMadeRug('5313', 'red ', '', 1, 3570, null, 14.65, {0: 1}, [1], [], [0],[], 300, 170, [0], [0], [], null, '23'),
   new HandMadeRug('5248', '10x8 square', '', 1, 3726, null, 16.65, {0: 1}, [1], [2], [0],[], 280, 190, [6], [0], [], null, '23'),
   new HandMadeRug('4842', '', '', 1, 3932, null, 14.30, {0: 1}, [9], [10], [0],[], 312, 210, [0], [0], [], null, '23'),
   new HandMadeRug('4732', 'green rectangle with cross and cirlce', '', 1, 9950, null, 16.75, {0: 1}, [1], [2], [0],[], 310, 216, [6], [0], [], null, '23'),
@@ -851,7 +851,7 @@ const handMadeRugsList = [
   // R & N
   new HandMadeRug('5265', '2 vases around a medaillon ', '', 1, 6110, null, 25.90, {0: 1}, [3,1], [3], [0],[11.60], 313, 195, [0], [0], [], null, '23'),
   new HandMadeRug('5245', 'red  ', '', 1, 4830, null, 13.70, {0: 1}, [1], [0], [0],[], 294, 205, [4], [0], [], null, '23'),
-  new HandMadeRug('5226', 'red with pattern', '', 1, 3850, null, 12.50, {0: 1}, [1], [6], [0],[], 286, 190, [4], [0], [], null, 'w'),
+  new HandMadeRug('5226', 'red with pattern', '', 1, 3850, null, 12.50, {0: 1}, [1], [6], [0],[], 286, 190, [4], [0], [], null, '23'),
   new HandMadeRug('5175', '', '', 1, 4980, null, 21.10, {0: 1}, [1], [5], [0],[], 305, 205, [4], [0], [], null, '23'),
   new HandMadeRug('93705', '', '', 1, 4428, null, 14.20, {0: 1}, [8, 3], [11], [1],[], 370, 200, [7], [0], [], null, '23'),
   new HandMadeRug('5571', '', '', 1, 2748, null, 15.70, {0: 1}, [10], [3], [0],[8.34], 260, 176, [0], [0], [], null, '23'),
