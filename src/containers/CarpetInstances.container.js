@@ -62,7 +62,7 @@ const handMadeRugsList = [
   new HandMadeRug('800617', '', '', 1, 1242, 2, 6.9, {0: 1}, [8, 9], [], [0],[6.6], 205, 151, [2, 4], [0], [0, 1, 2, 3, 5, 7], 4, '6'),
   new HandMadeRug('800448', '', '', 1, 1300, 2, 5.75, {0: 1}, [1, 9], [], [0],[6.8, 8.11], 153, 112, [2, 4], [0], [0, 1, 2, 3, 5, 7], 4, '6'),
   new HandMadeRug('8932', '', '', 1, 756, 3, 3.9, {0: 1}, [0, 2, 9], [], [0],[3], 222, 136, [4], [0], [], 3, '6'),  // FEATURES se ha quedado aqui
-  new HandMadeRug('800225', 'kilim azul', '3', 1,  1230, 3, 6.55, {0: 1}, [3], [], [0], [4.61], 238, 172, [4], [0], [], 3, '14'),
+  new HandMadeRug('800225', 'kilim azul', '', 1,  1230, 3, 6.55, {0: 1}, [3], [], [0], [4.61], 238, 172, [4], [0], [], 3, '6'),
 
 
   // SESSION 2022-12-17 - 3rd
@@ -338,6 +338,7 @@ const handMadeRugsList = [
   new HandMadeRug('93719', 'Nepali azul', '', 1, 1236, 9, 13.8, {0: 1}, [3], [5], [2],[9.43], 206, 150, [1, 5], [0], [], 13, '1'),
   new HandMadeRug('11', '', '', 1, 1885, 6, 7.2, {0: .94, 4: .06}, [0, 10], [], [0],[7.79], 190, 124, [0], [0], [], null, '1'), // region: ?
   new HandMadeRug('5212', 'Turcomana roja', '', 1, 1336, 11, 4.6, {0: 1}, [1], [6, 0], [0],[4.49], 208, 107, [0, 6], [0], [], 7, '1'),
+  new HandMadeRug('5212', 'internal comments', 'external comments', 1, 1836, null, 0, {0: 1}, [], [], [0],[], 208, 107, [], [0], [], null, '1'),
   new HandMadeRug('5316', 'Otra turcomana pero mas oscura', '', 1, 1200, 11, 6.25, {0: 1}, [1], [4, 6], [0],[7.43], 200, 100, [0, 6], [0], [], 7, '1'),
   new HandMadeRug('5337', 'otra turcomana que parece igual pero no lo es', '', 1, 1310, 11, 4.6, {0: 1}, [1], [6, 0], [0],[4.61], 198, 110, [0, 6], [0], [], 7, '3'),
   new HandMadeRug('4796', 'Con flores geometricas no se si turcomana o no', '', 1, 2040, 8, 6.25, {0: 1}, [1, 0], [2, 9, 4], [0],[6.11], 194, 132, [0, 6], [0], [], 6, '3'),
@@ -442,7 +443,7 @@ const handMadeRugsList = [
   new HandMadeRug('5215', 'geometric with circles around', '', 1, 2156, null, 7.10, {0: 1}, [13], [], [0],[6.30], 220, 140, [0, 6], [0], [], null, '1'),
   new HandMadeRug('4712', 'tourbillons rectangulaires', '', 1, 1444, null, 5.50, {0: 1}, [1], [6], [0],[8.38], 186, 97, [0, 6], [0], [], null, '3'),
   new HandMadeRug('5218', 'flowers and tree', '', 1, 1968, null, 4.55, {0: 1}, [1], [3, 4, 0], [0],[4.92], 200, 123, [0, 6], [0], [], null, '3'),
-  new HandMadeRug('3327', 'internal comments', '', 1, 1840, null, 6.60, {0: 1}, [1], [6, 11], [0],[8.16], 193, 126, [0], [0], [], null, '3'),
+  new HandMadeRug('3327', '', '', 1, 1840, null, 6.60, {0: 1}, [1], [6, 11], [0],[8.16], 193, 126, [0], [0], [], null, '3'),
   new HandMadeRug('800216', 'chickens 4x7', '', 1, 2868, null, 3.05, {4: 1}, [0, 1], [13], [0],[3.39], 185, 124, [0, 6], [0], [], null, '3'),
 
   // R and N
@@ -509,10 +510,10 @@ const handMadeRugsList = [
   // R & N
   new HandMadeRug('4939', 'white with beige diamond in center inside a rectangle', '', 1, 3206, null, 14.85, {0: 1}, [0,11], [3], [0],[7.65], 240, 167, [0, 7], [0], [], null, '8'),
   new HandMadeRug('4619', 'white with blue oval', '', 1, 3264, null, 16.05, {0: 1}, [], [], [0],[1.69], 265, 154, [0, 7], [0], [], null, '8'),
-  new HandMadeRug('4985', 'internal comments', '', 1, 3090, null, 11.85, {0: 1}, [11], [3], [0],[], 235, 165, [0, 7], [0], [], null, '8'),
+  new HandMadeRug('4985', '', '', 1, 3090, null, 11.85, {0: 1}, [11], [3], [0],[], 235, 165, [0, 7], [0], [], null, '8'),
   // Potentially missing pics and weight for 4985
-  new HandMadeRug('4168', 'internal comments', '', 1, 3198, null, 17.35, {0: 1}, [11], [3], [0],[], 253, 158, [0, 7], [0], [], null, '8'),
-  new HandMadeRug('4957', 'internal comments', '', 1, 3080, null, 13.10, {0: 1}, [], [3], [0],[3.10], 232, 166, [0, 7], [0], [], null, '8'),
+  new HandMadeRug('4168', '', '', 1, 3198, null, 17.35, {0: 1}, [11], [3], [0],[], 253, 158, [0, 7], [0], [], null, '8'),
+  new HandMadeRug('4957', '', '', 1, 3080, null, 13.10, {0: 1}, [], [3], [0],[3.10], 232, 166, [0, 7], [0], [], null, '8'),
   new HandMadeRug('4972', 'white with a rectangle flower center', '', 1, 3006, null, 14, {0: 0.5, 4:0.5}, [11], [3], [0],[2.79], 232, 162, [0, 7], [0], [], null, '8'),
 
   // L & M
@@ -582,27 +583,27 @@ const handMadeRugsList = [
   new HandMadeRug('5022', 'red with 6 yellow animals', '', 1, 1966, null, 16.35, {0: 1}, [2], [5], [0],[14.56], 210, 150, [0], [0], [], null, '1'),
 
   // R & N
-  new HandMadeRug('8870', 'internal comments', '', 1, 816, null, 3.80, {0: 1}, [9], [13], [0],[5.10], 163, 125, [2], [0], [], null, '5'),
-  new HandMadeRug('8786', 'internal comments', '', 1, 824, null, 3.95, {0: 1}, [9], [], [0],[5], 145, 142, [2], [0], [], null, '5'),
-  new HandMadeRug('800097', 'internal comments', '', 1, 830, null, 3.80, {0: 1}, [9], [], [],[4.46], 150, 138, [2], [0], [], null, '5'),
+  new HandMadeRug('8870', '', '', 1, 816, null, 3.80, {0: 1}, [9], [13], [0],[5.10], 163, 125, [2], [0], [], null, '5'),
+  new HandMadeRug('8786', '', '', 1, 824, null, 3.95, {0: 1}, [9], [], [0],[5], 145, 142, [2], [0], [], null, '5'),
+  new HandMadeRug('800097', '', '', 1, 830, null, 3.80, {0: 1}, [9], [], [],[4.46], 150, 138, [2], [0], [], null, '5'),
   // Potentially missing pictures for 800097
-  new HandMadeRug('800053', 'internal comments', '', 1, 1044, null, 5.60, {0: 1}, [9], [], [0],[3.35], 180, 145, [2], [0], [], null, '5'),
-  new HandMadeRug('800650', 'internal comments', '', 1, 1080, null, 5.70, {0: 1}, [9], [], [0],[4.50], 176, 152, [2], [0], [], null, '34'),
-  new HandMadeRug('800117', 'internal comments', '', 1, 1994, null, 4.35, {0: 1}, [9], [], [0],[3.90], 220, 113, [2], [0], [], null, '5'),
-  new HandMadeRug('800598', 'internal comments', '', 1, 1162, null, 4.80, {0: 1}, [9], [], [0],[4.10], 230, 126, [2], [0], [], null, '5'),
-  new HandMadeRug('8868', 'internal comments', '', 1, 1022, null, 3.80, {0: 1}, [9], [], [0],[3.75], 168, 152, [2], [0], [], null, '5'),
-  new HandMadeRug('800135', 'internal comments', '', 1, 970, null, 4.20, {0: 1}, [9], [], [0],[3.23], 170, 142, [2], [0], [], null, '5'),
-  new HandMadeRug('800415', 'internal comments', '', 1, 1046, null, 4.90, {0: 1}, [9], [], [0],[2.40], 158, 165, [2], [0], [], null, '5'),
-  new HandMadeRug('8920', 'internal comments', '', 1, 622, null, 3.25, {0: 1}, [9], [], [0],[3.40], 173, 144, [2], [0], [], null, '5'),
-  new HandMadeRug('8792', 'internal comments', '', 1, 1266, null, 5.35, {0: 1}, [9], [], [0],[5.95], 195, 162, [2], [0], [], null, '5'),
-  new HandMadeRug('800165', 'internal comments', '', 1, 1070, null, 4.60, {0: 1}, [9], [], [0],[6.40], 199, 134, [2], [0], [], null, '34'),
-  new HandMadeRug('800642', 'internal comments', '', 1, 1100, null, 3.75, {0: 1}, [9], [], [0],[2.45], 210, 130, [2], [0], [], null, '5'),
-  new HandMadeRug('8784', 'internal comments', '', 1, 718, null, 3.15, {0: 1}, [9], [], [0],[3.50], 140, 128, [2], [0], [], null, '5'),
-  new HandMadeRug('800704', 'internal comments', '', 1, 960, null, 3.15, {0: 1}, [9], [], [0],[3.80], 210, 114, [2], [0], [], null, '5'),
+  new HandMadeRug('800053', '', '', 1, 1044, null, 5.60, {0: 1}, [9], [], [0],[3.35], 180, 145, [2], [0], [], null, '5'),
+  new HandMadeRug('800650', '', '', 1, 1080, null, 5.70, {0: 1}, [9], [], [0],[4.50], 176, 152, [2], [0], [], null, '34'),
+  new HandMadeRug('800117', '', '', 1, 1994, null, 4.35, {0: 1}, [9], [], [0],[3.90], 220, 113, [2], [0], [], null, '5'),
+  new HandMadeRug('800598', '', '', 1, 1162, null, 4.80, {0: 1}, [9], [], [0],[4.10], 230, 126, [2], [0], [], null, '5'),
+  new HandMadeRug('8868', '', '', 1, 1022, null, 3.80, {0: 1}, [9], [], [0],[3.75], 168, 152, [2], [0], [], null, '5'),
+  new HandMadeRug('800135', '', '', 1, 970, null, 4.20, {0: 1}, [9], [], [0],[3.23], 170, 142, [2], [0], [], null, '5'),
+  new HandMadeRug('800415', '', '', 1, 1046, null, 4.90, {0: 1}, [9], [], [0],[2.40], 158, 165, [2], [0], [], null, '5'),
+  new HandMadeRug('8920', '', '', 1, 622, null, 3.25, {0: 1}, [9], [], [0],[3.40], 173, 144, [2], [0], [], null, '5'),
+  new HandMadeRug('8792', '', '', 1, 1266, null, 5.35, {0: 1}, [9], [], [0],[5.95], 195, 162, [2], [0], [], null, '5'),
+  new HandMadeRug('800165', '', '', 1, 1070, null, 4.60, {0: 1}, [9], [], [0],[6.40], 199, 134, [2], [0], [], null, '34'),
+  new HandMadeRug('800642', '', '', 1, 1100, null, 3.75, {0: 1}, [9], [], [0],[2.45], 210, 130, [2], [0], [], null, '5'),
+  new HandMadeRug('8784', '', '', 1, 718, null, 3.15, {0: 1}, [9], [], [0],[3.50], 140, 128, [2], [0], [], null, '5'),
+  new HandMadeRug('800704', '', '', 1, 960, null, 3.15, {0: 1}, [9], [], [0],[3.80], 210, 114, [2], [0], [], null, '5'),
   new HandMadeRug('800700', 'blue with red and white diamonds', '', 1, 770, null, 3.50, {0: 1}, [3], [1, 11], [0],[3.70], 138, 139, [2], [0], [], null, '5'),
-  new HandMadeRug('800061', 'internal comments', '', 1, 1034, null, 3.85, {0: 1}, [9], [], [0],[3.20], 170, 152, [2], [0], [], null, '5'),
-  new HandMadeRug('8815', 'internal comments', '', 1, 1110, null, 5.10, {0: 1}, [9], [], [0],[3.75], 185, 150, [], [0], [], null, '5'),
-  new HandMadeRug('800515', 'internal comments', '', 1, 802, null, 3.25, {0: 1}, [9], [], [0],[2.80], 215, 93, [2], [0], [], null, '10'),
+  new HandMadeRug('800061', '', '', 1, 1034, null, 3.85, {0: 1}, [9], [], [0],[3.20], 170, 152, [2], [0], [], null, '5'),
+  new HandMadeRug('8815', '', '', 1, 1110, null, 5.10, {0: 1}, [9], [], [0],[3.75], 185, 150, [], [0], [], null, '5'),
+  new HandMadeRug('800515', '', '', 1, 802, null, 3.25, {0: 1}, [9], [], [0],[2.80], 215, 93, [2], [0], [], null, '10'),
 
 
   // SESSION 2024-06-12 - 16th
@@ -634,34 +635,34 @@ const handMadeRugsList = [
   new HandMadeRug('5340', '', '', 1, 1332, null, 7.4, {0: 1}, [1], [11, 2, 3], [0],[11.33], 193, 115, [4, 6], [0], [], null, '3'),
 
   // R & N
-  // new HandMadeRug('800693', 'internal comments', '', 1, 756, null, 2.30, {0: 1}, [], [], [],[], 143, 132, [2], [0], [], null, ''),
-  // new HandMadeRug('98377', 'internal comments', '', 1, 544, null, 2.9, {0: 1}, [], [], [],[], 162, 112, [2], [0], [], null, ''),
-  new HandMadeRug('8891', 'internal comments', '', 1, 888, null, 3.30, {0: 1}, [], [], [],[], 158, 140, [4], [0], [], null, '5'),
-  // new HandMadeRug('800033', 'internal comments', '', 1, 790, null, 3.40, {0: 1}, [], [], [],[], 145, 136, [4], [0], [], null, ''),
-  new HandMadeRug('800668', 'internal comments', '', 1, 646, null, 3.15, {0: 1}, [], [], [],[], 171, 136, [4], [0], [], null, '5'),
-  // new HandMadeRug('98030', 'internal comments', '', 1, 436, null, 2.25, {0: 1}, [], [], [],[], 154, 103, [4], [0], [], null, ''),
-  new HandMadeRug('800102', 'internal comments', '', 1, 1320, null, 4.25, {0: 1}, [], [], [0],[], 243, 135, [4], [0], [], null, '5'),
-  new HandMadeRug('015', 'internal comments', '', 1, 167, null, 2.00, {0: 1}, [], [], [],[], 180, 120, [4], [0], [], null, '5'),
-  new HandMadeRug('027', 'internal comments', '', 1, 200, null, 2.80, {0: 1}, [], [], [4],[], 240, 170, [], [0], [], null, '5'),
-  new HandMadeRug('021', 'internal comments', '', 1, 167, null, 1.80, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
-  new HandMadeRug('022', 'internal comments', '', 1, 167, null, 1.85, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
-  new HandMadeRug('029', 'internal comments', '', 1, 167, null, 1.85, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
-  new HandMadeRug('019', 'internal comments', '', 1, 167, null, 1.90, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
-  new HandMadeRug('05', 'internal comments', '', 1, 184, null, 2.25, {0: 1}, [], [], [2],[], 200, 140, [], [0], [], null, '5'),
-  new HandMadeRug('026', 'internal comments', '', 1, 180, null, 2.80, {0: 1}, [], [], [4],[], 200, 140, [], [0], [], null, '5'),
-  new HandMadeRug('8779', 'internal comments', '', 1, 842, null, 3.10, {0: 1}, [], [], [],[], 150, 140, [], [0], [], null, '5'),
-  new HandMadeRug('800036', 'internal comments', '', 1, 784, null, 3.40, {0: 1}, [], [], [],[], 184, 105, [], [0], [], null, '5'),
-  // new HandMadeRug('8887', 'internal comments', '', 1, 780, null, 3.95, {0: 1}, [], [], [],[], 144, 135, [], [0], [], null, ''),
-  // new HandMadeRug('800599', 'internal comments', '', 1, 846, null, 3.20, {0: 1}, [], [], [],[], 162, 130, [], [0], [], null, ''),
-  // new HandMadeRug('8879', 'internal comments', '', 1, 740, null, 3.20, {0: 1}, [], [], [],[], 142, 130, [], [0], [], null, ''),
-  new HandMadeRug('88716', 'internal comments', '', 1, 1002, null, 4.5, {0: 1}, [], [], [],[], 170, 147, [4], [0], [], null, '5'),
-  new HandMadeRug('800450', 'internal comments', '', 1, 730, null, 0, {0: 1}, [], [], [],[], 144, 126, [4], [0], [], null, '5'),
-  new HandMadeRug('800020', 'internal comments', '', 1, 666, null, 2.40, {0: 1}, [], [], [],[], 125, 133, [4], [0], [], null, '5'),
-  new HandMadeRug('800352', 'internal comments', '', 1, 720, null, 3.45, {0: 1}, [], [], [],[], 141, 127, [4], [0], [], null, '5'),
-  // DUPLICATE new HandMadeRug('98377', 'internal comments', '', 1, 544, null, 2.9, {0: 1}, [], [], [], [], 1, 1, [4], [0], [], null, ''),
-  // new HandMadeRug('800430', 'internal comments', '', 1, 730, null, 2.30, {0: 1}, [], [], [],[], 1, 1, [4], [0], [], null, ''),
-  new HandMadeRug('8783', 'internal comments', '', 1, 774, null, 3.95, {0: 1}, [], [], [],[], 145, 133, [4], [0], [], null, '5'),
-  // DUPLICATE new HandMadeRug('88716', 'internal comments', '', 1, 1002, null, 4.5, {0: 1}, [], [], [],[], 170, 147, [4], [0], [], null, '5'),
+  // new HandMadeRug('800693', '', '', 1, 756, null, 2.30, {0: 1}, [], [], [],[], 143, 132, [2], [0], [], null, ''),
+  // new HandMadeRug('98377', '', '', 1, 544, null, 2.9, {0: 1}, [], [], [],[], 162, 112, [2], [0], [], null, ''),
+  new HandMadeRug('8891', '', '', 1, 888, null, 3.30, {0: 1}, [], [], [],[], 158, 140, [4], [0], [], null, '5'),
+  // new HandMadeRug('800033', '', '', 1, 790, null, 3.40, {0: 1}, [], [], [],[], 145, 136, [4], [0], [], null, ''),
+  new HandMadeRug('800668', '', '', 1, 646, null, 3.15, {0: 1}, [], [], [],[], 171, 136, [4], [0], [], null, '5'),
+  // new HandMadeRug('98030', '', '', 1, 436, null, 2.25, {0: 1}, [], [], [],[], 154, 103, [4], [0], [], null, ''),
+  new HandMadeRug('800102', '', '', 1, 1320, null, 4.25, {0: 1}, [], [], [0],[], 243, 135, [4], [0], [], null, '5'),
+  new HandMadeRug('015', '', '', 1, 167, null, 2.00, {0: 1}, [], [], [],[], 180, 120, [4], [0], [], null, '5'),
+  new HandMadeRug('027', '', '', 1, 200, null, 2.80, {0: 1}, [], [], [4],[], 240, 170, [], [0], [], null, '5'),
+  new HandMadeRug('021', '', '', 1, 167, null, 1.80, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
+  new HandMadeRug('022', '', '', 1, 167, null, 1.85, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
+  new HandMadeRug('029', '', '', 1, 167, null, 1.85, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
+  new HandMadeRug('019', '', '', 1, 167, null, 1.90, {0: 1}, [], [], [],[], 180, 120, [], [0], [], null, '5'),
+  new HandMadeRug('05', '', '', 1, 184, null, 2.25, {0: 1}, [], [], [2],[], 200, 140, [], [0], [], null, '5'),
+  new HandMadeRug('026', '', '', 1, 180, null, 2.80, {0: 1}, [], [], [4],[], 200, 140, [], [0], [], null, '5'),
+  new HandMadeRug('8779', '', '', 1, 842, null, 3.10, {0: 1}, [], [], [],[], 150, 140, [], [0], [], null, '5'),
+  new HandMadeRug('800036', '', '', 1, 784, null, 3.40, {0: 1}, [], [], [],[], 184, 105, [], [0], [], null, '5'),
+  // new HandMadeRug('8887', '', '', 1, 780, null, 3.95, {0: 1}, [], [], [],[], 144, 135, [], [0], [], null, ''),
+  // new HandMadeRug('800599', '', '', 1, 846, null, 3.20, {0: 1}, [], [], [],[], 162, 130, [], [0], [], null, ''),
+  // new HandMadeRug('8879', '', '', 1, 740, null, 3.20, {0: 1}, [], [], [],[], 142, 130, [], [0], [], null, ''),
+  new HandMadeRug('88716', '', '', 1, 1002, null, 4.5, {0: 1}, [], [], [],[], 170, 147, [4], [0], [], null, '5'),
+  new HandMadeRug('800450', '', '', 1, 730, null, 0, {0: 1}, [], [], [],[], 144, 126, [4], [0], [], null, '5'),
+  new HandMadeRug('800020', '', '', 1, 666, null, 2.40, {0: 1}, [], [], [],[], 125, 133, [4], [0], [], null, '5'),
+  new HandMadeRug('800352', '', '', 1, 720, null, 3.45, {0: 1}, [], [], [],[], 141, 127, [4], [0], [], null, '5'),
+  // DUPLICATE new HandMadeRug('98377', '', '', 1, 544, null, 2.9, {0: 1}, [], [], [], [], 1, 1, [4], [0], [], null, ''),
+  // new HandMadeRug('800430', '', '', 1, 730, null, 2.30, {0: 1}, [], [], [],[], 1, 1, [4], [0], [], null, ''),
+  new HandMadeRug('8783', '', '', 1, 774, null, 3.95, {0: 1}, [], [], [],[], 145, 133, [4], [0], [], null, '5'),
+  // DUPLICATE new HandMadeRug('88716', '', '', 1, 1002, null, 4.5, {0: 1}, [], [], [],[], 170, 147, [4], [0], [], null, '5'),
 
 
 
@@ -683,15 +684,15 @@ const handMadeRugsList = [
   new HandMadeRug('93692', 'blue with light versace', '', 1, 1640, null, 20.1, {0: 1}, [3], [0], [2],[11.90], 241, 170, [0], [0], [], null, '2'),
 
   // Git merge error? All these seem duplucated but need to check the timeline of pictures available for them. SESSION N R
-  new HandMadeRug('8767', 'internal comments', '', 1, 738, null, 2.8, {0: 1}, [], [], [],[3.70], 142, 130, [2], [0], [], null, '34'),
-  new HandMadeRug('8879', 'internal comments', '', 1, 740, null, 3.2, {0: 1}, [], [], [],[], 142, 130, [], [0], [], null, '34'),
-  new HandMadeRug('8887', 'internal comments', '', 1, 780, null, 3.95, {0: 1}, [], [], [],[], 144, 135, [], [0], [], null, '34'),
-  new HandMadeRug('98030', 'internal comments', '', 1, 436, null, 2.25, {0: 1}, [], [], [],[], 154, 103, [4], [0], [], null, '34'),
-  new HandMadeRug('98377', 'internal comments', '', 1, 544, null, 2.9, {0: 1}, [], [], [],[], 162, 112, [2], [0], [], null, '34'),
-  new HandMadeRug('800033', 'internal comments', '', 1, 790, null, 3.4, {0: 1}, [], [], [],[], 145, 136, [4], [0], [], null, '34'),
-  new HandMadeRug('800430', 'internal comments', '', 1, 730, null, 2.3, {0: 1}, [], [], [],[], 144, 126, [4], [0], [], null, '34'),
-  new HandMadeRug('800599', 'internal comments', '', 1, 846, null, 3.2, {0: 1}, [], [], [],[], 162, 130, [], [0], [], null, '34'),
-  new HandMadeRug('800693', 'internal comments', '', 1, 756, null, 2.3, {0: 1}, [], [], [],[], 143, 132, [2], [0], [], null, '34'),
+  new HandMadeRug('8767', '', '', 1, 738, null, 2.8, {0: 1}, [], [], [],[3.70], 142, 130, [2], [0], [], null, '34'),
+  new HandMadeRug('8879', '', '', 1, 740, null, 3.2, {0: 1}, [], [], [],[], 142, 130, [], [0], [], null, '34'),
+  new HandMadeRug('8887', '', '', 1, 780, null, 3.95, {0: 1}, [], [], [],[], 144, 135, [], [0], [], null, '34'),
+  new HandMadeRug('98030', '', '', 1, 436, null, 2.25, {0: 1}, [], [], [],[], 154, 103, [4], [0], [], null, '34'),
+  new HandMadeRug('98377', '', '', 1, 544, null, 2.9, {0: 1}, [], [], [],[], 162, 112, [2], [0], [], null, '34'),
+  new HandMadeRug('800033', '', '', 1, 790, null, 3.4, {0: 1}, [], [], [],[], 145, 136, [4], [0], [], null, '34'),
+  new HandMadeRug('800430', '', '', 1, 730, null, 2.3, {0: 1}, [], [], [],[], 144, 126, [4], [0], [], null, '34'),
+  new HandMadeRug('800599', '', '', 1, 846, null, 3.2, {0: 1}, [], [], [],[], 162, 130, [], [0], [], null, '34'),
+  new HandMadeRug('800693', '', '', 1, 756, null, 2.3, {0: 1}, [], [], [],[], 143, 132, [2], [0], [], null, '34'),
 
   // SESSION 2024-06-17 - 19th
   // L & M
@@ -713,7 +714,7 @@ const handMadeRugsList = [
   // L
   new HandMadeRug('1835', '', '', 1, 110, null, 1.65, {0: 1}, [13], [], [4],[2.6], 128, 85, [4, 6], [0], [], null, ''),
   new HandMadeRug('1809', '', '', 1, 110, null, 1.55, {0: 1}, [13], [], [4],[3.33], 123, 84, [4, 6], [0], [], null, ''),
-  new HandMadeRug('1874', '', '', 1, 115, null, 1.80, {0: 1}, [13], [], [4],[3.3], 121, 95, [4, 6], [0], [], null, '34'),
+  new HandMadeRug('1874', '', '', 1, 115, null, 1.8, {0: 1}, [13], [], [4],[3.3], 121, 95, [4, 6], [0], [], null, '34'),
   new HandMadeRug('1877', '', '', 1, 100, null, 1.45, {0: 1}, [13], [], [4],[3.16], 118, 84, [4, 6], [0], [], null, ''),
   new HandMadeRug('1807', '', '', 1, 99, null, 1.55, {0: 1}, [13], [], [4],[3.23], 116, 83, [4, 6], [0], [], null, ''),
   new HandMadeRug('8856', '', '', 1, 584, null, 2.15, {0: 1}, [1], [5, 2, 3, 6], [0],[2.33], 180, 81, [4, 6], [0], [], null, 'stage'),
@@ -722,17 +723,17 @@ const handMadeRugsList = [
   new HandMadeRug('1871', '', '', 1, 99, null, 1.30, {0: 1}, [13], [], [4],[2.88], 117, 77, [4], [0], [], null, '34'),
   new HandMadeRug('1879', '', '', 1, 220, null, 1.58, {0: 1}, [13], [], [4],[3.15], 122, 93, [4, 6], [0], [], null, ''),
   new HandMadeRug('1876', '', '', 1, 110, null, 1.65, {0: 1}, [13], [], [4],[3.25], 125, 95, [4, 6], [0], [], null, ''),
-  new HandMadeRug('1870', '', '', 1, 110, null, 1.50, {0: 1}, [13], [], [4],[3.48], 125, 83, [4, 6], [0], [], null, ''),
+  new HandMadeRug('1870', '', '', 1, 110, null, 1.5, {0: 1}, [13], [], [4],[3.48], 125, 83, [4, 6], [0], [], null, ''),
 
 
   // SESSION 2024-06-19 21st
   // R & N
-  new HandMadeRug('8634', 'internal comments', '', 1, 1140, null, 4.20, {0: 1}, [9], [1,2,4,11], [0],[], 203, 140, [4], [0], [], null, '34'),
-  new HandMadeRug('800544', 'internal comments', '', 1, 1334, null, 5.35, {0: 1}, [9], [1], [0],[4.25], 145, 230, [4], [0], [], null, '34'),
-  new HandMadeRug('800269', 'internal comments', '', 1, 1200, null, 4.40, {0: 1}, [9], [5], [0],[2.65], 250, 120, [4], [0], [], null, '34'),
-  new HandMadeRug('800196', 'internal comments', '', 1, 1130, null, 3.95, {0: 1}, [9], [1,6, 5], [0],[3.30], 251, 112, [4], [0], [], null, '34'),
-  new HandMadeRug('800549', 'internal comments', '', 1, 1224, null, 5.60, {0: 1}, [9], [2, 5], [0],[2.95], 218, 140, [4], [0], [], null, '34'),
-  new HandMadeRug('93096', 'internal comments', '', 1, 123, null, 23.85, {0: 1}, [1], [2,3], [0],[9.78], 302, 200, [0], [0], [], null, '22'),
+  new HandMadeRug('8634', '', '', 1, 1140, null, 4.2, {0: 1}, [9], [1,2,4,11], [0],[], 203, 140, [4], [0], [], null, '34'),
+  new HandMadeRug('800544', '', '', 1, 1334, null, 5.35, {0: 1}, [9], [1], [0],[4.25], 145, 230, [4], [0], [], null, '34'),
+  new HandMadeRug('800269', '', '', 1, 1200, null, 4.4, {0: 1}, [9], [5], [0],[2.65], 250, 120, [4], [0], [], null, '34'),
+  new HandMadeRug('800196', '', '', 1, 1130, null, 3.95, {0: 1}, [9], [1,6, 5], [0],[3.30], 251, 112, [4], [0], [], null, '34'),
+  new HandMadeRug('800549', '', '', 1, 1224, null, 5.6, {0: 1}, [9], [2, 5], [0],[2.95], 218, 140, [4], [0], [], null, '34'),
+  new HandMadeRug('93096', '', '', 1, 123, null, 23.85, {0: 1}, [1], [2,3], [0],[9.78], 302, 200, [0], [0], [], null, '22'),
 
   // M & L
   new HandMadeRug('93703', 'yellow with blue versace', '', 1, 1640, null, 18.8, {0: 1}, [5], [3], [2],[9.76], 241, 170, [0], [0], [], null, '2'),
@@ -748,7 +749,7 @@ const handMadeRugsList = [
   // Session 2024-06-20 22nd
   // R & N
   new HandMadeRug('S3698', 'gold with Fendi design in blue', '', 1, 2360, null, 25.95, {0: 1}, [5], [3], [2],[12.44], 295, 200, [5], [0], [], null, '22'),
-  new HandMadeRug('4511', 'internal comments', '', 1, 3606, null, 29.3, {0: 1}, [0, 9], [], [0],[15.26], 296, 203, [4], [0], [], null, '22'),
+  new HandMadeRug('4511', '', '', 1, 3606, null, 29.3, {0: 1}, [0, 9], [], [0],[15.26], 296, 203, [4], [0], [], null, '22'),
   // Estimated 4511 weight as aprox. that of 93894
 
   // M & L
@@ -787,12 +788,12 @@ const handMadeRugsList = [
 
   // Session 2024-06-22 24th
   // R & N
-  new HandMadeRug('93697', 'internal comments', '', 1, 2400, null, 29.10, {0: 1}, [], [], [2],[12.55], 300, 200, [], [0], [], null, '22'),
-  new HandMadeRug('93780', 'internal comments', '', 1, 2450, null, 26.30, {0: 1}, [], [], [2],[], 300, 204, [], [0], [], null, '22'),
-  new HandMadeRug('A3694', 'internal comments', '', 1, 2432, null, 0, {0: 1}, [], [], [2],[], 304, 200, [], [0], [], null, '22'),
-  new HandMadeRug('93894', 'internal comments', '', 1, 2450, null, 29.30, {0: 1}, [5], [], [2],[], 306, 200, [], [0], [], null, '22'),
-  new HandMadeRug('93892', 'internal comments', '', 1, 2456, null, 25.25, {0: 1}, [], [], [2],[], 304, 202, [], [0], [], null, '22'),
-  new HandMadeRug('6017', 'internal comments', '', 1, 4936, null, 17.95, {0: 1}, [0], [], [1],[], 292, 207, [], [0], [], null, ''),
+  new HandMadeRug('93697', '', '', 1, 2400, null, 29.10, {0: 1}, [], [], [2],[12.55], 300, 200, [], [0], [], null, '22'),
+  new HandMadeRug('93780', '', '', 1, 2450, null, 26.30, {0: 1}, [], [], [2],[], 300, 204, [], [0], [], null, '22'),
+  new HandMadeRug('A3694', '', '', 1, 2432, null, 0, {0: 1}, [], [], [2],[], 304, 200, [], [0], [], null, '22'),
+  new HandMadeRug('93894', '', '', 1, 2450, null, 29.30, {0: 1}, [5], [], [2],[], 306, 200, [], [0], [], null, '22'),
+  new HandMadeRug('93892', '', '', 1, 2456, null, 25.25, {0: 1}, [], [], [2],[], 304, 202, [], [0], [], null, '22'),
+  new HandMadeRug('6017', '', '', 1, 4936, null, 17.95, {0: 1}, [0], [], [1],[], 292, 207, [], [0], [], null, ''),
 
   // Session 2024-06-24 25th
   // L
@@ -812,7 +813,7 @@ const handMadeRugsList = [
   new HandMadeRug('5229', 'Red with colorful "< > <" ', '', 1, 2440, null, 13.65, {0: 1}, [1], [13], [0],[2.23], 300, 116, [], [0], [], null, 'stage'),
   new HandMadeRug('5268', 'Red and black', '', 1, 5000, null, 12.75, {0: 1}, [1], [6], [0],[1.19], 279, 160, [], [0], [], null, '23'),
   new HandMadeRug('3893', 'Blue with blue rectangle pattern versace', '', 1, 2400, null, 27.60, {0: 1}, [3], [3], [2],[3.11], 300, 200, [], [0], [], null, '22'),
-  new HandMadeRug('4657', 'internal comments', '', 1, 3492, null, 19.30, {0: 1}, [9], [9], [0],[7.66], 300, 194, [], [0], [], null, '23'),
+  new HandMadeRug('4657', '', '', 1, 3492, null, 19.30, {0: 1}, [9], [9], [0],[7.66], 300, 194, [], [0], [], null, '23'),
   new HandMadeRug('5172', '4 horses at the corner of a diamond', '', 1, 4870, null, 30.60, {0: 1}, [1], [3], [0],[15.24], 294, 207, [], [0], [], null, '23'),
 
 
@@ -831,10 +832,10 @@ const handMadeRugsList = [
   new HandMadeRug('5248', '10x8 square', '', 1, 3726, null, 16.65, {0: 1}, [1], [2], [0],[], 280, 190, [6], [0], [], null, '23'),
   new HandMadeRug('4842', '', '', 1, 3932, null, 14.30, {0: 1}, [9], [10], [0],[], 312, 210, [0], [0], [], null, '23'),
   new HandMadeRug('4732', 'green rectangle with cross and cirlce', '', 1, 9950, null, 16.75, {0: 1}, [1], [2], [0],[], 310, 216, [6], [0], [], null, '23'),
-  new HandMadeRug('A3596', 'internal comments', '', 1, 6186, null, 17.15, {0: 1}, [1], [], [0],[], 285, 217, [0], [0], [], null, '23'),
+  new HandMadeRug('A3596', '', '', 1, 6186, null, 17.15, {0: 1}, [1], [], [0],[], 285, 217, [0], [0], [], null, '23'),
   new HandMadeRug('5365', 'Rio colorful with a center', '', 1, 7285, null, 23.25, {0: 1}, [1,3], [2], [0],[], 286, 190, [0], [0], [], null, '23'),
   // Duplicated new HandMadeRug('93675', '', '', 1, 2476, null, 0, {0: 1}, [], [], [2],[], 302, 205, [], [0], [], null),
-  new HandMadeRug('5501', 'internal comments', '', 1, 3738, null, 25.20, {0: 1}, [], [], [0],[], 307, 203, [], [0], [], null, '23'),
+  new HandMadeRug('5501', '', '', 1, 3738, null, 25.20, {0: 1}, [], [], [0],[], 307, 203, [], [0], [], null, '23'),
   new HandMadeRug('800024', 'killim', '', 1, 778, null, 3.65, {0: 1}, [1], [], [0],[], 154, 126, [4], [0], [], null, '23'),
   new HandMadeRug('5462', '', '', 1, 4560, null, 22.55, {0: 1}, [3], [1], [0],[], 300, 190, [0,7], [0], [], null, '23'),
 
