@@ -870,6 +870,9 @@ const handMadeRugsList = [
   // N
   new HandMadeRug('93778', '', '', 1, 2424, null, 23.15, {0: 1}, [3], [3], [2],[10.65], 300, 200, [0], [0], [], null, '22'),
   // Product code number :93085 Not found
+
+  new HandMadeRug('5954', '', '', 1, 2587, null, 0, {0: 1}, [], [], [0],[], 245, 176, [], [0], [], null, '30'),
+  new HandMadeRug('5545', '', '', 1, 3030, null, 0, {0: 1}, [], [], [0],[], 252, 202, [], [0], [], null, '30'),
 ];
 
 // new HandMadeRug('productID', 'internal comments', '', 1, 123, null, 0, {0: 1}, [], [], [],[], 1, 1, [], [0], [], null, ''),
